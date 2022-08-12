@@ -1,0 +1,26 @@
+POST http://localhost:8000/api/post
+Content-Type: application/json
+
+{
+    "title": "title 3gjfk",
+    "description": "description 3 bro"
+}
+
+###
+
+GET http://127.0.0.1:8000/api/post
+
+###
+GET http://127.0.0.1:8000/api/post/1
+
+###
+PUT http://127.0.0.1:8000/api/post/2
+Content-Type: application/json
+
+{
+    "title": "title 2",
+    "description": "description 2"
+}
+
+###
+DELETE http://127.0.0.1:8000/api/post/3
