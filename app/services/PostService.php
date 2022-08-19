@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-use App\Repositories\PostRepository;
+use App\Repositories\PostRepositoryInterface;
 use Exception;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
@@ -24,7 +24,7 @@ class PostService
      * @param  mixed $postRep
      * @return void
      */
-    public function __construct(PostRepository $postRep)
+    public function __construct(PostRepositoryInterface $postRep)
     {
         $this->PostRepository = $postRep;
     }

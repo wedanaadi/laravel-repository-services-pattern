@@ -2,8 +2,8 @@ POST http://localhost:8000/api/post
 Content-Type: application/json
 
 {
-    "title": "title 3gjfk",
-    "description": "description 3 bro"
+    "title": "title 2",
+    "description": "description 2 bro"
 }
 
 ###
@@ -18,9 +18,9 @@ PUT http://127.0.0.1:8000/api/post/2
 Content-Type: application/json
 
 {
-    "title": "title 2",
-    "description": "description 2"
+    "title": "title 2 update",
+    "description": "description 2 update"
 }
 
 ###
-DELETE http://127.0.0.1:8000/api/post/3
+DELETE http://127.0.0.1:8000/api/post/2
